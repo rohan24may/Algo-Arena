@@ -1,7 +1,7 @@
 # 🚀 DSA Practice – Python 🐍 & Java ☕
 
 <div align="center">
-<img src="./loop shedding GIF.gif" width="500"/>
+<img src="./loop%20shedding%20GIF.gif" width="500"/>
 </div>
 
 <div align="center">
@@ -21,7 +21,7 @@
 
 ---
 
-## 🧠 Topics
+## 🧠 Topics Covered
 
 🌱 Basics → 🌿 Intermediate → 🌳 Advanced
 
@@ -37,7 +37,7 @@
 
 ## 📅 Routine
 
-- 🧩 As Manny Problem / Day  
+- 🧩 1+ Problem / Day  
 - 🔍 Pattern-based learning  
 - 🔁 Revision & optimization  
 
@@ -50,18 +50,18 @@
 | 1 | Python Basics | ✅ |
 | 2 | Lists + Strings | ✅ |
 | 3 | Binary Search | ⏳ |
-| 4 | Coming Soon | 🔜 |
+| 4 | Recursion | 🔜 |
 
 ---
 
 ## 🎯 Mindset
 
-> 💥 Consistency > Motivation
+> 💥 Consistency > Motivation  
 
 ---
 
 <div align="center">
 
-🔥 **DSA GRIND NEVER STOPS** 🔥
+🔥 **DSA GRIND NEVER STOPS** 🔥  
 
 </div>
