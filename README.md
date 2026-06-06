@@ -1,7 +1,7 @@
 # 🚀 DSA Practice – Python 🐍 & Java ☕
 
 <div align="center">
-<img src="./loop%20shedding%20GIF.gif" width="500"/>
+<img src="./Jjk Gojo GIF.gif" width="500"/>
 </div>
 
 <div align="center">
