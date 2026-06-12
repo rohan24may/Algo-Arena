@@ -1,67 +1,99 @@
-# 🚀 DSA Practice – Python 🐍 & Java ☕
+# 🚀 DSA Journey – Python 🐍 & Java ☕
 
 <div align="center">
-<img src="./Jjk Gojo GIF.gif" width="500"/>
+  <img src="./Jjk Gojo GIF.gif" width="650"/>
 </div>
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=DSA+Grind+Mode+ON+🔥;Consistency+%3E+Motivation+💪;Leveling+Up+Everyday+🚀)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Pattern-Based+DSA+Learning+🔥;One+Problem+At+A+Time+⚡;Consistency+%3E+Motivation+💪;MCA+2026+→+Software+Developer+🚀)
 
 </div>
 
 ---
 
-## 👨‍💻 About
+## 🎯 Mission
 
-💡 **Grinding Data Structures & Algorithms daily to level up problem-solving and crack top interviews.**
-
-- 🐍 Python  
-- ☕ Java  
-
----
-
-## 🧠 Topics Covered
-
-🌱 Basics → 🌿 Intermediate → 🌳 Advanced
-
-- 🔁 Arrays & Strings  
-- 🔍 Searching & Sorting  
-- 🔗 Linked Lists  
-- 📚 Stacks & Queues  
-- 🌳 Trees & Graphs  
-- 🔄 Recursion & Backtracking  
-- ⚡ Dynamic Programming  
+```text
+✓ Master DSA Patterns
+✓ Improve Problem Solving
+✓ Crack Placements
+✓ Become a Better Developer
+```
 
 ---
 
-## 📅 Routine
+## ⚡ Tech Stack
 
-- 🧩 1+ Problem / Day  
-- 🔍 Pattern-based learning  
-- 🔁 Revision & optimization  
+<div align="center">
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-## 📊 Progress
-
-| Day | Topic | Status |
-|-----|------|--------|
-| 1 | Python Basics | ✅ |
-| 2 | Lists + Strings | ✅ |
-| 3 | Binary Search | ⏳ |
-| 4 | Recursion | 🔜 |
+</div>
 
 ---
 
-## 🎯 Mindset
+## 🧠 DSA Roadmap
 
-> 💥 Consistency > Motivation  
+| Pattern | Status |
+|----------|----------|
+| Two Pointers | ✅ |
+| Sliding Window | ⏳ |
+| Binary Search | ⏳ |
+| Linked List | ⏳ |
+| Stack | ⏳ |
+| Queue | ⏳ |
+| Trees | ⏳ |
+| Graphs | ⏳ |
+| Dynamic Programming | ⏳ |
+
+---
+
+## 🔥 Problem Solving Flow
+
+```text
+Understand Problem
+        ↓
+Brute Force
+        ↓
+Optimize
+        ↓
+Code
+        ↓
+Debug
+        ↓
+Learn
+```
+
+---
+
+## 📈 Current Progress
+
+```text
+Level 1 ▰▰▰▰▱▱▱▱▱▱
+
+Current Pattern:
+➡️ Two Pointers
+```
+
+
+## 💭 Mindset
+
+> "A problem solved twice is a problem learned."
+
+> "Consistency beats motivation."
+
+> "Small improvements every day lead to massive growth."
 
 ---
 
 <div align="center">
 
-🔥 **DSA GRIND NEVER STOPS** 🔥  
+## ⚡ LEARN • BUILD • IMPROVE • REPEAT ⚡
+
+### 🚀 From MCA Student → Software Developer
 
 </div>
