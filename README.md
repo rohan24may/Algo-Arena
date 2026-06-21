@@ -19,6 +19,7 @@
 ✓ Improve Problem Solving
 ✓ Crack Placements
 ✓ Become a Better Developer
+✓ Stay Consistent Every Day
 ```
 
 ---
@@ -40,7 +41,10 @@
 
 | Pattern | Status |
 |----------|----------|
-| Two Pointers | ✅ |
+| Arrays Basics | ✅ |
+| Python Fundamentals | ✅ |
+| HashMap / Dictionary | ✅ |
+| Two Pointers | ⏳ |
 | Sliding Window | ⏳ |
 | Binary Search | ⏳ |
 | Linked List | ⏳ |
@@ -55,30 +59,86 @@
 ## 🔥 Problem Solving Flow
 
 ```text
-Understand Problem
-        ↓
-Brute Force
-        ↓
-Optimize
-        ↓
+Read Problem
+      ↓
+Understand Input & Output
+      ↓
+Solve Manually
+      ↓
+Dry Run
+      ↓
+Identify Pattern
+      ↓
+Write Algorithm
+      ↓
 Code
-        ↓
-Debug
-        ↓
-Learn
+      ↓
+Dry Run Code
+      ↓
+Submit
 ```
+
+---
+
+## 📚 Python Concepts Learned
+
+```text
+✓ for num in nums
+✓ for i in range(len(nums))
+✓ for i, num in enumerate(nums)
+
+✓ Dictionary (HashMap)
+✓ Key : Value Storage
+✓ if x in nums
+✓ if x in dictionary
+✓ Frequency Counting
+✓ dict.get(key, default)
+
+✓ Dry Run
+✓ Pattern Recognition
+```
+
+---
+
+## 🏆 Problems Solved
+
+| # | Problem | Pattern | Status |
+|---|---------|----------|---------|
+| 1 | Two Sum | HashMap | ✅ |
+| 2 | Sum of Unique | Frequency Count | ✅ |
+| 3 | Contains Duplicate | HashMap | ✅ |
+| 4 | Valid Anagram | HashMap | 🧠 Logic Understood |
+| 5 | Remove Duplicates from Sorted Array II | Two Pointers | 🧠 Logic Understood |
 
 ---
 
 ## 📈 Current Progress
 
 ```text
-Level 1 ▰▰▰▰▱▱▱▱▱▱
+Level 1 ▰▰▰▱▱▱▱▱▱▱
 
-Current Pattern:
-➡️ Two Pointers
+Current Focus:
+➡️ Python for DSA
+➡️ HashMap Pattern
+➡️ Frequency Counting
 ```
 
+---
+
+## 📅 Day 1 Progress
+
+```text
+✓ Learned Dictionaries
+✓ Learned enumerate()
+✓ Learned range(len())
+✓ Learned Frequency Count Pattern
+✓ Solved Contains Duplicate
+✓ Solved Two Sum
+✓ Learned Dry Run Process
+✓ Improved Python Syntax
+```
+
+---
 
 ## 💭 Mindset
 
@@ -86,7 +146,9 @@ Current Pattern:
 
 > "Consistency beats motivation."
 
-> "Small improvements every day lead to massive growth."
+> "First understand, then optimize."
+
+> "Dry Run → Code → Improve."
 
 ---
 
