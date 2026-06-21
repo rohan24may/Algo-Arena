@@ -1,16 +1,13 @@
-
+nums = [1,2,3,4]
 
 def containsDuplicate(nums):
-    seen = {}
+    freq={}
 
     for num in nums:
-        if num in seen:
+        if num in freq :
             return True
-
-        seen[num] = True
-
+        else:
+            freq[num]=1
     return False
 
-nums = [1,2,3,1]
-
-print(containsDuplicate(nums))
+print (containsDuplicate(nums))
