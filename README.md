@@ -1,4 +1,3 @@
-````markdown
 # 🚀 DSA Journey – Python 🐍 & Java ☕
 
 <div align="center">
@@ -226,4 +225,3 @@ Sliding Window Pattern
 ⭐ Every solved problem is one step closer to becoming interview ready.
 
 </div>
-````
