@@ -1,3 +1,4 @@
+````markdown
 # 🚀 DSA Journey – Python 🐍 & Java ☕
 
 <div align="center">
@@ -44,7 +45,8 @@
 | Arrays Basics | ✅ |
 | Python Fundamentals | ✅ |
 | HashMap / Dictionary | ✅ |
-| Two Pointers | ⏳ |
+| Tracking Variables | ✅ |
+| Two Pointers | ✅ |
 | Sliding Window | ⏳ |
 | Binary Search | ⏳ |
 | Linked List | ⏳ |
@@ -75,6 +77,8 @@ Code
       ↓
 Dry Run Code
       ↓
+Analyze Time & Space Complexity
+      ↓
 Submit
 ```
 
@@ -83,19 +87,24 @@ Submit
 ## 📚 Python Concepts Learned
 
 ```text
+✓ Variables & Functions
 ✓ for num in nums
 ✓ for i in range(len(nums))
 ✓ for i, num in enumerate(nums)
 
 ✓ Dictionary (HashMap)
 ✓ Key : Value Storage
-✓ if x in nums
-✓ if x in dictionary
 ✓ Frequency Counting
-✓ dict.get(key, default)
+✓ dict.get()
+
+✓ String Indexing
+✓ Two Pointers
+✓ Swapping Values
+✓ += and -=
 
 ✓ Dry Run
 ✓ Pattern Recognition
+✓ Algorithm Writing
 ```
 
 ---
@@ -107,35 +116,89 @@ Submit
 | 1 | Two Sum | HashMap | ✅ |
 | 2 | Sum of Unique | Frequency Count | ✅ |
 | 3 | Contains Duplicate | HashMap | ✅ |
-| 4 | Valid Anagram | HashMap | 🧠 Logic Understood |
-| 5 | Remove Duplicates from Sorted Array II | Two Pointers | 🧠 Logic Understood |
+| 4 | Majority Element | HashMap | ✅ |
+| 5 | Best Time to Buy and Sell Stock | Tracking Variables | ✅ |
+| 6 | Move Zeroes | Two Pointers | ✅ |
+| 7 | Valid Palindrome | Two Pointers | ✅ |
+| 8 | Reverse String | Two Pointers | ✅ |
+| 9 | Remove Element | Two Pointers | ✅ |
+| 10 | Valid Anagram | HashMap | 🧠 Logic Understood |
+| 11 | Remove Duplicates from Sorted Array II | Two Pointers | 🧠 Logic Understood |
+
+---
+
+## 🧩 Patterns Learned
+
+| Pattern | Problems Completed |
+|----------|--------------------|
+| 🟦 HashMap | Two Sum, Contains Duplicate, Majority Element, Sum of Unique |
+| 🟩 Tracking Variables | Best Time to Buy and Sell Stock |
+| 🟨 Two Pointers | Move Zeroes, Valid Palindrome, Reverse String, Remove Element |
 
 ---
 
 ## 📈 Current Progress
 
 ```text
-Level 1 ▰▰▰▱▱▱▱▱▱▱
+Level 2 ▰▰▰▰▰▱▱▱▱▱
 
 Current Focus:
-➡️ Python for DSA
-➡️ HashMap Pattern
-➡️ Frequency Counting
+➡️ Two Pointer Mastery
+➡️ Pattern Recognition
+➡️ Writing Algorithms Before Code
 ```
 
 ---
 
-## 📅 Day 1 Progress
+## 📅 Learning Progress
+
+### Day 1
 
 ```text
 ✓ Learned Dictionaries
 ✓ Learned enumerate()
 ✓ Learned range(len())
-✓ Learned Frequency Count Pattern
-✓ Solved Contains Duplicate
+✓ Learned Frequency Counting
 ✓ Solved Two Sum
+✓ Solved Contains Duplicate
 ✓ Learned Dry Run Process
-✓ Improved Python Syntax
+```
+
+### Day 2
+
+```text
+✓ Solved Majority Element
+✓ Learned Tracking Variables Pattern
+✓ Solved Best Time to Buy and Sell Stock
+✓ Understood Variable Representation
+```
+
+### Day 3
+
+```text
+✓ Learned Two Pointer Pattern
+✓ Solved Move Zeroes
+✓ Solved Valid Palindrome
+✓ Solved Reverse String
+✓ Solved Remove Element
+✓ Started Recognizing Patterns Instead of Memorizing Code
+```
+
+---
+
+## 🎯 Current Milestones
+
+```text
+✅ Comfortable with Python Basics
+
+✅ Can Dry Run Problems
+
+✅ Can Write Algorithms in English
+
+✅ Recognizing DSA Patterns
+
+🚧 Next Goal:
+Sliding Window Pattern
 ```
 
 ---
@@ -148,7 +211,9 @@ Current Focus:
 
 > "First understand, then optimize."
 
-> "Dry Run → Code → Improve."
+> "Dry Run → Algorithm → Code."
+
+> "Recognize patterns, don't memorize solutions."
 
 ---
 
@@ -158,4 +223,7 @@ Current Focus:
 
 ### 🚀 From MCA Student → Software Developer
 
+⭐ Every solved problem is one step closer to becoming interview ready.
+
 </div>
+````
