@@ -1,7 +1,3 @@
-# ==========================================================
-# REMOVE DUPLICATES FROM SORTED ARRAY II
-# ==========================================================
-#
 # Given a sorted array `nums`, remove duplicates in-place
 # so that each element appears at most twice.
 #
@@ -11,8 +7,6 @@
 # Input:  [1, 1, 1, 2, 2, 3]
 # Output: Length = 5
 # Array: [1, 1, 2, 2, 3]
-#
-# ==========================================================
 
 def removeDuplicates(nums):
     if len(nums) <= 2:

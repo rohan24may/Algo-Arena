@@ -1,9 +1,3 @@
-# ==========================================================
-# SUM OF UNIQUE ELEMENTS
-# ==========================================================
-#
-# Problem:
-#
 # You are given an integer array `nums`.
 #
 # The unique elements of an array are the elements that
@@ -44,8 +38,7 @@
 # Explanation:
 # Every element is unique, so the sum is
 # 1 + 2 + 3 + 4 + 5 = 15.
-#
-# ==========================================================
+
 
 def sumOfUnique(nums):
     freq = {}

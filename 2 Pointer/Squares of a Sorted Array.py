@@ -1,15 +1,9 @@
-# ==========================================================
-# SQUARES OF A SORTED ARRAY
-# ==========================================================
-#
 # Given a sorted integer array `nums`, return an array of
 # the squares of each number, also sorted in non-decreasing order.
 #
 # Example:
 # Input:  [-4, -1, 0, 3, 10]
 # Output: [0, 1, 9, 16, 100]
-#
-# ==========================================================
 
 nums = list(map(int, input("Enter sorted array elements: ").split()))
 

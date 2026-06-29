@@ -1,7 +1,3 @@
-# ==========================================================
-# TWO SUM II (INPUT ARRAY IS SORTED)
-# ==========================================================
-#
 # Given a sorted array `numbers` and a target,
 # return the 1-based indices of the two numbers
 # that add up to the target.
@@ -9,8 +5,6 @@
 # Example:
 # Input:  numbers = [2, 7, 11, 15], target = 9
 # Output: [1, 2]
-#
-# ==========================================================
 
 def twoSum(numbers, target):
 

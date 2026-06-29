@@ -6,11 +6,7 @@
 # You may not use the same element twice.
 
 # There is exactly one solution.
-
-# --------------------------------------------------
-
 # Example 1:
-
 # Input:
 # numbers = [2,7,11,15]
 # target = 9
