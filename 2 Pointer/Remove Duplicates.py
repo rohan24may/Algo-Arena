@@ -1,22 +1,36 @@
-# LeetCode 26 - Remove Duplicates from Sorted Array
-
+# ==========================================================
+# REMOVE DUPLICATES FROM SORTED ARRAY
+# ==========================================================
+#
+# Given a sorted array `nums`, remove the duplicates
+# in-place so that each unique element appears only once.
+#
+# Return the number of unique elements.
+#
 # Example:
-# Input: nums = [0,0,1,1,1,2,2,3,3,4]
-# Output: 5
-# nums = [0,1,2,3,4,_,_,_,_,_]
+# Input:  [0,0,1,1,1,2,2,3,3,4]
+# Output: Length = 5
+# Array: [0,1,2,3,4]
+#
+# ==========================================================
 
-# Pattern: Two Pointers (Slow & Fast)
+def removeDuplicates(nums):
+    if len(nums) == 0:
+        return 0
 
-# Time Complexity: O(n)
-# Space Complexity: O(1)
+    i = 0
 
-class Solution:
-    def removeDuplicates(self, nums):
-        i = 0
+    for j in range(1, len(nums)):
+        if nums[j] != nums[i]:
+            i += 1
+            nums[i] = nums[j]
 
-        for j in range(1, len(nums)):
-            if nums[j] != nums[i]:
-                i += 1
-                nums[i] = nums[j]
+    return i + 1
 
-        return i + 1
+
+nums = list(map(int, input("Enter sorted array elements: ").split()))
+
+k = removeDuplicates(nums)
+
+print("Length:", k)
+print("Array:", nums[:k])

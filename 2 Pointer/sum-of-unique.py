@@ -1,31 +1,70 @@
-""" You are given an integer array nums. The unique elements of an array are the elements that appear exactly once in the array.
-
- """
+# ==========================================================
+# SUM OF UNIQUE ELEMENTS
+# ==========================================================
+#
+# Problem:
+#
+# You are given an integer array `nums`.
+#
+# The unique elements of an array are the elements that
+# appear exactly once in the array.
+#
+# Return the sum of all the unique elements of `nums`.
+#
 # Example 1:
-
-# Input: nums = [1,2,3,2]
-# Output: 4
-# Explanation: The unique elements are [1,3], and the sum is 4.
+#
+# Input:
+# nums = [1, 2, 3, 2]
+#
+# Output:
+# 4
+#
+# Explanation:
+# The unique elements are [1, 3], and their sum is 4.
+#
 # Example 2:
-
-# Input: nums = [1,1,1,1,1]
-# Output: 0
-# Explanation: There are no unique elements, and the sum is 0.
+#
+# Input:
+# nums = [1, 1, 1, 1, 1]
+#
+# Output:
+# 0
+#
+# Explanation:
+# There are no unique elements, so the sum is 0.
+#
 # Example 3:
-
-# Input: nums = [1,2,3,4,5]
-# Output: 15
-# Explanation: The unique elements are [1,2,3,4,5], and the sum is 15.
+#
+# Input:
+# nums = [1, 2, 3, 4, 5]
+#
+# Output:
+# 15
+#
+# Explanation:
+# Every element is unique, so the sum is
+# 1 + 2 + 3 + 4 + 5 = 15.
+#
+# ==========================================================
 
 def sumOfUnique(nums):
-        freq = {}
-        sum = 0
-        for i in nums:
-            val = freq.get(i, 0) + 1
-            freq[i] = val
-        for i in nums:
-            if freq[i] == 1:
-                sum += i
-        return sum
+    freq = {}
+    total = 0
 
-print(sumOfUnique([1,2,3,2]))
+    # Count the frequency of each number
+    for num in nums:
+        freq[num] = freq.get(num, 0) + 1
+
+    # Add only the unique numbers
+    for num in nums:
+        if freq[num] == 1:
+            total += num
+
+    return total
+
+
+# Take input from the user
+nums = list(map(int, input("Enter array elements separated by space: ").split()))
+
+# Print the answer
+print("Answer:", sumOfUnique(nums))

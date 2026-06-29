@@ -1,24 +1,18 @@
-"""
-80. Remove Duplicates from Sorted Array II
-
-Given an integer array nums sorted in non-decreasing order,
-remove some duplicates in-place such that each unique element
-appears at most twice.
-
-The relative order of the elements should be kept the same.
-
-Return k after placing the final result in the first k slots of nums.
-
-Example 1:
-Input: nums = [1,1,1,2,2,3]
-Output: 5
-nums = [1,1,2,2,3,_]
-
-Example 2:
-Input: nums = [0,0,1,1,1,1,2,3,3]
-Output: 7
-nums = [0,0,1,1,2,3,3,_,_]
-"""
+# ==========================================================
+# REMOVE DUPLICATES FROM SORTED ARRAY II
+# ==========================================================
+#
+# Given a sorted array `nums`, remove duplicates in-place
+# so that each element appears at most twice.
+#
+# Return the number of remaining elements.
+#
+# Example:
+# Input:  [1, 1, 1, 2, 2, 3]
+# Output: Length = 5
+# Array: [1, 1, 2, 2, 3]
+#
+# ==========================================================
 
 def removeDuplicates(nums):
     if len(nums) <= 2:
@@ -32,3 +26,11 @@ def removeDuplicates(nums):
             k += 1
 
     return k
+
+
+nums = list(map(int, input("Enter sorted array elements: ").split()))
+
+k = removeDuplicates(nums)
+
+print("Length:", k)
+print("Array:", nums[:k])

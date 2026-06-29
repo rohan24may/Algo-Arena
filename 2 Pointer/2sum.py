@@ -1,27 +1,37 @@
-# LeetCode 167 - Two Sum II (Input Array Is Sorted)
-
+# ==========================================================
+# TWO SUM II (INPUT ARRAY IS SORTED)
+# ==========================================================
+#
+# Given a sorted array `numbers` and a target,
+# return the 1-based indices of the two numbers
+# that add up to the target.
+#
 # Example:
-# Input: numbers = [2,7,11,15], target = 9
-# Output: [1,2]
+# Input:  numbers = [2, 7, 11, 15], target = 9
+# Output: [1, 2]
+#
+# ==========================================================
 
-# Pattern: Two Pointers
+def twoSum(numbers, target):
 
-# Time Complexity: O(n)
-# Space Complexity: O(1)
+    left = 0
+    right = len(numbers) - 1
 
-class Solution:
-    def twoSum(self, numbers, target):
-        left = 0
-        right = len(numbers) - 1
+    while left < right:
 
-        while left < right:
-            curr_sum = numbers[left] + numbers[right]
+        curr_sum = numbers[left] + numbers[right]
 
-            if curr_sum == target:
-                return [left + 1, right + 1]
+        if curr_sum == target:
+            return [left + 1, right + 1]
 
-            elif curr_sum < target:
-                left += 1
+        elif curr_sum < target:
+            left += 1
 
-            else:
-                right -= 1
+        else:
+            right -= 1
+
+
+numbers = list(map(int, input("Enter sorted array elements: ").split()))
+target = int(input("Enter target: "))
+
+print("Answer:", twoSum(numbers, target))
