@@ -22,8 +22,8 @@ Output:
 """
 
 nums = [-1,0,1,2,-1,-4]
-
 nums.sort()
+# nums = [-4,-1,-1,0,1,2]
 
 answer = []
 
