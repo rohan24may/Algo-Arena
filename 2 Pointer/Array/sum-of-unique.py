@@ -15,29 +15,7 @@
 #
 # Explanation:
 # The unique elements are [1, 3], and their sum is 4.
-#
-# Example 2:
-#
-# Input:
-# nums = [1, 1, 1, 1, 1]
-#
-# Output:
-# 0
-#
-# Explanation:
-# There are no unique elements, so the sum is 0.
-#
-# Example 3:
-#
-# Input:
-# nums = [1, 2, 3, 4, 5]
-#
-# Output:
-# 15
-#
-# Explanation:
-# Every element is unique, so the sum is
-# 1 + 2 + 3 + 4 + 5 = 15.
+
 
 
 def sumOfUnique(nums):
