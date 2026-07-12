@@ -28,7 +28,7 @@ Space Complexity : O(1)
 """
 
 s = "ab#c"
-t = "ad#c"
+t = "acc#"
 
 i = len(s) - 1
 j = len(t) - 1
