@@ -46,4 +46,4 @@ class Solution:
         if min_len == float("inf"):
             return ""
 
-        return s[start:start + min_len]
+        return s[start:start + min_len] # pyright: ignore[reportArgumentType]
