@@ -1,3 +1,6 @@
+from typing import List
+
+
 def totalFruit(self, fruits: List[int]) -> int:
         left = 0
         freq = {}

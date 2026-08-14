@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         n = len(nums)
@@ -14,5 +17,5 @@ class Solution:
                 window_sum -= nums[left]
                 left += 1
 
-        return 0 if min_len == float('inf') else min_len
+        return 0 if min_len == float('inf') else min_len # pyright: ignore[reportReturnType]
 
