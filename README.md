@@ -1,4 +1,4 @@
-# 🚀 DSA Journey – Python 🐍 & Java ☕
+# 🚀 DSA Journey – Python 🐍 
 
 <div align="center">
   <img src="./Jjk Gojo GIF.gif" width="650"/>
@@ -31,7 +31,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
@@ -46,9 +46,11 @@
 | HashMap / Dictionary | ✅ |
 | Tracking Variables | ✅ |
 | Two Pointers | ✅ |
+| Slow & Fast Pointers | ✅ |
+| Kadane's Algorithm | 🚧 |
 | Sliding Window | ⏳ |
 | Binary Search | ⏳ |
-| Linked List | ⏳ |
+| Linked List | ✅ |
 | Stack | ⏳ |
 | Queue | ⏳ |
 | Trees | ⏳ |
@@ -87,23 +89,26 @@ Submit
 
 ```text
 ✓ Variables & Functions
-✓ for num in nums
-✓ for i in range(len(nums))
-✓ for i, num in enumerate(nums)
+✓ for loops
+✓ range(len())
+✓ enumerate()
 
-✓ Dictionary (HashMap)
-✓ Key : Value Storage
+✓ Dictionary / HashMap
 ✓ Frequency Counting
-✓ dict.get()
-
 ✓ String Indexing
+
 ✓ Two Pointers
-✓ Swapping Values
-✓ += and -=
+✓ Slow & Fast Pointers
+✓ Linked List Traversal
+✓ Linked List Reversal
+✓ Cycle Detection
+✓ Circular Array Indexing
+✓ Modulo (%)
 
 ✓ Dry Run
 ✓ Pattern Recognition
 ✓ Algorithm Writing
+✓ Time & Space Complexity
 ```
 
 ---
@@ -123,6 +128,14 @@ Submit
 | 9 | Remove Element | Two Pointers | ✅ |
 | 10 | Valid Anagram | HashMap | 🧠 Logic Understood |
 | 11 | Remove Duplicates from Sorted Array II | Two Pointers | 🧠 Logic Understood |
+| 12 | Linked List Cycle | Slow & Fast | ✅ |
+| 13 | Happy Number | Slow & Fast | ✅ |
+| 14 | Linked List Cycle II | Slow & Fast | ✅ |
+| 15 | Find the Duplicate Number | Slow & Fast | ✅ |
+| 16 | Middle of the Linked List | Slow & Fast | ✅ |
+| 17 | Palindrome Linked List | Slow & Fast + Reverse | ✅ |
+| 18 | Reorder List | Slow & Fast + Reverse | ✅ |
+| 19 | Circular Array Loop | Slow & Fast | ✅ |
 
 ---
 
@@ -133,54 +146,27 @@ Submit
 | 🟦 HashMap | Two Sum, Contains Duplicate, Majority Element, Sum of Unique |
 | 🟩 Tracking Variables | Best Time to Buy and Sell Stock |
 | 🟨 Two Pointers | Move Zeroes, Valid Palindrome, Reverse String, Remove Element |
+| 🟪 Slow & Fast Pointers | Linked List Cycle, Happy Number, Linked List Cycle II, Find Duplicate, Middle of Linked List, Palindrome Linked List, Reorder List, Circular Array Loop |
+| 🟥 Kadane's Algorithm | 🚧 Starting Now |
 
 ---
 
 ## 📈 Current Progress
 
 ```text
-Level 2 ▰▰▰▰▰▱▱▱▱▱
+Level 3 ▰▰▰▰▰▰▱▱▱▱
+
+Completed:
+✓ HashMap
+✓ Tracking Variables
+✓ Two Pointers
+✓ Slow & Fast Pointers
 
 Current Focus:
-➡️ Two Pointer Mastery
+➡️ Kadane's Algorithm
+➡️ Maximum Subarray
 ➡️ Pattern Recognition
-➡️ Writing Algorithms Before Code
-```
-
----
-
-## 📅 Learning Progress
-
-### Day 1
-
-```text
-✓ Learned Dictionaries
-✓ Learned enumerate()
-✓ Learned range(len())
-✓ Learned Frequency Counting
-✓ Solved Two Sum
-✓ Solved Contains Duplicate
-✓ Learned Dry Run Process
-```
-
-### Day 2
-
-```text
-✓ Solved Majority Element
-✓ Learned Tracking Variables Pattern
-✓ Solved Best Time to Buy and Sell Stock
-✓ Understood Variable Representation
-```
-
-### Day 3
-
-```text
-✓ Learned Two Pointer Pattern
-✓ Solved Move Zeroes
-✓ Solved Valid Palindrome
-✓ Solved Reverse String
-✓ Solved Remove Element
-✓ Started Recognizing Patterns Instead of Memorizing Code
+➡️ Algorithm Before Code
 ```
 
 ---
@@ -189,15 +175,17 @@ Current Focus:
 
 ```text
 ✅ Comfortable with Python Basics
-
 ✅ Can Dry Run Problems
-
 ✅ Can Write Algorithms in English
-
 ✅ Recognizing DSA Patterns
+✅ Comfortable with Two Pointers
+✅ Comfortable with Slow & Fast Pointers
+✅ Understand Linked List Basics
+✅ Understand Linked List Reversal
+✅ Understand Cycle Detection
 
 🚧 Next Goal:
-Sliding Window Pattern
+Kadane's Algorithm
 ```
 
 ---
