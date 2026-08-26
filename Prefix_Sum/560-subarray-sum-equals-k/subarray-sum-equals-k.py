@@ -1,5 +1,5 @@
 class Solution:
-    def subarraySum(self, nums: List[int], k: int) -> int:
+    def subarraySum(self, nums: List[int], k: int) -> int: # pyright: ignore[reportUndefinedVariable]
         prefix_sum = 0
         count = 0
         prefix_count = {0: 1}
