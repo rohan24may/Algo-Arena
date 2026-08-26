@@ -1,5 +1,5 @@
 class Solution:
-    def pivotIndex(self, nums: List[int]) -> int:
+    def pivotIndex(self, nums: List[int]) -> int: # pyright: ignore[reportUndefinedVariable]
         total_sum = sum(nums)
         left_sum = 0
 
