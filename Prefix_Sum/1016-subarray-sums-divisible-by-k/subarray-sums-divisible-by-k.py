@@ -1,5 +1,5 @@
 class Solution:
-    def subarraysDivByK(self, nums: List[int], k: int) -> int:
+    def subarraysDivByK(self, nums: List[int], k: int) -> int: # pyright: ignore[reportUndefinedVariable]
         count = 0
         prefix_sum = 0
         remainder_count = {0: 1}
