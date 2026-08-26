@@ -1,5 +1,5 @@
 class Solution:
-    def findMaxLength(self, nums: List[int]) -> int:
+    def findMaxLength(self, nums: List[int]) -> int: # pyright: ignore[reportUndefinedVariable]
         prefix_sum = 0
         max_length = 0
         prefix_map = {0: -1}

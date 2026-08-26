@@ -1,7 +1,7 @@
 from collections import deque
 
 class Solution:
-    def shortestSubarray(self, nums: List[int], k: int) -> int:
+    def shortestSubarray(self, nums: List[int], k: int) -> int: # pyright: ignore[reportUndefinedVariable]
         prefix_sum = 0
         min_length = float('inf')
         dq = deque([(0, 0)])
@@ -19,4 +19,4 @@ class Solution:
 
             dq.append((i, prefix_sum))
 
-        return min_length if min_length != float('inf') else -1
+        return min_length if min_length != float('inf') else -1 # pyright: ignore[reportReturnType]
