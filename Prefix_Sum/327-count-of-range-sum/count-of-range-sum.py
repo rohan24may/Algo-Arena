@@ -1,5 +1,5 @@
 class Solution:
-    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
+    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int: # pyright: ignore[reportUndefinedVariable]
 
         prefix = [0]
         for num in nums:
