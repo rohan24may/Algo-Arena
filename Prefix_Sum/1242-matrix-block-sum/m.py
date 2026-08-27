@@ -1,5 +1,5 @@
 class Solution:
-    def matrixBlockSum(self, mat: List[List[int]], k: int) -> List[List[int]]:
+    def matrixBlockSum(self, mat: List[List[int]], k: int) -> List[List[int]]: # pyright: ignore[reportUndefinedVariable]
 
         rows = len(mat)
         cols = len(mat[0])

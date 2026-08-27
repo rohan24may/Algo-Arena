@@ -1,5 +1,5 @@
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums: List[int]) -> List[int]: # pyright: ignore[reportUndefinedVariable]
         answer = [1] * len(nums)
 
         prefix = 1
