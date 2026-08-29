@@ -1,24 +1,24 @@
 class Solution:
     def insert(self, intervals, newInterval):
+
         ans = []
-        i = 0
-        n = len(intervals)
 
-        # 1. Add intervals before newInterval
-        while i < n and intervals[i][1] < newInterval[0]:
-            ans.append(intervals[i])
-            i += 1
+        for interval in intervals:
 
-        # 2. Merge overlapping intervals
-        while i < n and intervals[i][0] <= newInterval[1]:
-            newInterval[0] = min(newInterval[0], intervals[i][0])
-            newInterval[1] = max(newInterval[1], intervals[i][1])
-            i += 1
+            # Before newInterval
+            if interval[1] < newInterval[0]:
+                ans.append(interval)
 
-        # 3. Add merged newInterval
+            # Overlapping
+            elif interval[0] <= newInterval[1]:
+                newInterval[0] = min(newInterval[0], interval[0])
+                newInterval[1] = max(newInterval[1], interval[1])
+
+            # After newInterval
+            else:
+                ans.append(newInterval)
+                newInterval = interval
+
         ans.append(newInterval)
-
-        # 4. Add remaining intervals
-        ans.extend(intervals[i:])
 
         return ans
