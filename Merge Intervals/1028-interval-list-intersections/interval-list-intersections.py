@@ -1,5 +1,5 @@
 class Solution:
-    def intervalIntersection(self, firstList: List[List[int]], secondList: List[List[int]]) -> List[List[int]]:
+    def intervalIntersection(self, firstList: List[List[int]], secondList: List[List[int]]) -> List[List[int]]: # pyright: ignore[reportUndefinedVariable]
 
         i = j = 0
         ans = []
