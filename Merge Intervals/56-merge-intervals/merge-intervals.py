@@ -6,7 +6,7 @@ class Solution:
         ans = []
         ans.append(intervals[0])
 
-        for i in range(1, len(intervals)):
+        for i in range(1, len(intervals)): # pyright: ignore[reportUndefinedVariable]
 
             if ans[-1][1] >= intervals[i][0]:
                 ans[-1][1] = max(ans[-1][1], intervals[i][1])
