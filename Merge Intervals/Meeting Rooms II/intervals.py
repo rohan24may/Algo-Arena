@@ -8,7 +8,7 @@ class Solution:
     rooms = 0
     max_rooms = 0
 
-    while i < len(start):
+    while i < len(start): # pyright: ignore[reportUndefinedVariable]
 
         if start[i] < end[j]:
             rooms += 1
