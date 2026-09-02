@@ -1,5 +1,5 @@
 class Solution:
-    def nextGreaterElements(self, nums: List[int]) -> List[int]:
+    def nextGreaterElements(self, nums: List[int]) -> List[int]: # pyright: ignore[reportUndefinedVariable]
         stack = []
         ans = [-1] * len(nums)
 
