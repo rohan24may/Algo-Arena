@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def removeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def removeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]: # pyright: ignore[reportUndefinedVariable]
         stack = []
         current = head
 

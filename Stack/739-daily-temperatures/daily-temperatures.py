@@ -1,5 +1,5 @@
 class Solution:
-    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]: # pyright: ignore[reportUndefinedVariable]
         ans = [0] * len(temperatures)
         stack = []
 
