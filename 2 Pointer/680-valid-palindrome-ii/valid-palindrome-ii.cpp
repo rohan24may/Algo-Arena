@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     bool check(string &s, int left, int right) {
@@ -32,3 +35,13 @@ public:
         return true;
     }
 };
+
+int main() {
+    string s = "abca";
+
+    Solution v;
+
+    cout << v.validPalindrome(s);
+
+    return 0;
+}
