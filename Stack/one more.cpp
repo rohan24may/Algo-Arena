@@ -12,7 +12,7 @@ bool isEmpty(){
     return top = -1 ;
 }
 void push(int value){
-    if(isFull){
+    if(isFull)){
         cout<<"Stack is full";
         return;
     }
@@ -21,7 +21,7 @@ void push(int value){
     cout<<"Element pushed into the stack."
 }
 void pop(){
-    if(isEmpty){
+    if(isEmpty()){
         cout<<"Stack is empty";
         return;
     }
@@ -31,7 +31,7 @@ void pop(){
     cout<<"Poped value : "<< value ;
 }
 void peak(){
-        if(isEmpty){
+        if(isEmpty()){
         cout<<"Stack is empty";
         return;
     }
