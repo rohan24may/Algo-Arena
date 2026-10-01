@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[2][3] = {
+        {1, 2, 3},
+        {4, 5, 6}
+    };
+
+    int evenCount = 0, oddCount = 0;
+
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 3; j++) {
+            if (arr[i][j] % 2 == 0) {
+                evenCount++;
+            } else {
+                oddCount++;
+            }
+        }
+    }
+
+    cout << "Even: " << evenCount << endl;
+    cout << "Odd: " << oddCount << endl;
+
+    return 0;
+}
