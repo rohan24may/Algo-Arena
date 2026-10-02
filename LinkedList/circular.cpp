@@ -1,60 +1,12 @@
-Node* newNode=new Node(5);
+///single/
 
-newNode->next=head;
-head->prev=newNode;
-head=newNode;
-
-//end/;
-
-Node* newNode = new Node(40);
-    newNode->next = NULL;
-    tail->next = newNode;
-    newNode->prev = tail;
-    tail = newNode;
-
-   //
-
-Node* newNode = new Node(40);
-
-if (head == NULL) {
-    head = tail = newNode;
-}
-else {
-    tail->next = newNode;
-    newNode->prev = tail;
-    tail = newNode;
-}
-
-//
-
-Node* temp=head;
-head=head->next;
-head->prev=null;
-delete temp;
-
-//
-if (head == NULL) {
-    return;
-}
-
-Node* temp = head;
-head = head->next;
-
-if (head != NULL) {
-    head->prev = NULL;
-}
-
-delete temp;
-
-//
-
-void deleteEnd() {
+void deleteBeginning() {
     if (head == NULL) {
         return;
     }
 
     // Only one node
-    if (head->next == NULL) {
+    if (head == tail) {
         delete head;
         head = NULL;
         tail = NULL;
@@ -62,8 +14,21 @@ void deleteEnd() {
     }
 
     // Multiple nodes
-    Node* temp = tail;
-    tail = tail->prev;
-    tail->next = NULL;
+    Node* temp = head;
+    head = head->next;
+    tail->next = head;
     delete temp;
 }
+
+//
+
+Node* temp = tail;
+Node* current = head;
+
+while (current->next != tail) {
+    current = current->next;
+}
+
+current->next = head;
+tail = current;
+delete temp;
