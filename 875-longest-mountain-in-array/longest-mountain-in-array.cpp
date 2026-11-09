@@ -1,25 +1,42 @@
 class Solution {
 public:
     int longestMountain(vector<int>& arr) {
-        int maxlen=0;
-        int n=arr.size();
-        for(int i=1;i<n-1 ; i++){
-            if(arr[i]>arr[i-1] && arr[i] > arr[i+1]){
-                int left=i-1;
-                int right=i+1;
-               
+        int up = 0;
+        int down = 0;
+        int maxLen = 0;
 
-while (left > 0 && arr[left] > arr[left - 1]) {
-    left--;
+        for (int i = 1; i < arr.size(); i++) {
+
+            // New mountain starts after descending
+if (arr[i] > arr[i - 1] && down > 0) {
+    if (up > 0) {
+        maxLen = max(maxLen, up + down + 1);
+    }
+
+    up = 0;
+    down = 0;
 }
-while (right<n-1 && arr[right] > arr[right + 1]) {
-    right++;
-}
-                  maxlen=max(maxlen,right-left+1);           
+
+            // Equal elements break the mountain
+            if (arr[i] == arr[i - 1]) {
+                up = 0;
+                down = 0;
+            }
+            // Uphill
+            else if (arr[i] > arr[i - 1]) {
+                up++;
+            }
+            // Downhill
+            else {
+                down++;
             }
 
-            
+            // Update longest valid mountain
+            if (up > 0 && down > 0) {
+                maxLen = max(maxLen, up + down + 1);
+            }
         }
-        return maxlen;
+
+        return maxLen;
     }
 };
